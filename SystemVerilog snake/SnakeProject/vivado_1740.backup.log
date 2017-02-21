@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Fri Dec 23 02:41:04 2016
+# Process ID: 1740
+# Current directory: C:/Users/furkanerdem/Desktop/SnakeProject
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5824 C:\Users\furkanerdem\Desktop\SnakeProject\SnakeProject.xpr
+# Log file: C:/Users/furkanerdem/Desktop/SnakeProject/vivado.log
+# Journal file: C:/Users/furkanerdem/Desktop/SnakeProject\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Output Repository Path: Could not find the directory 'C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.cache/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.3/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 756.906 ; gain = 109.699
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Dec 23 02:43:34 2016...

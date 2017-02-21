@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  "../../../SnakeProject.srcs/sources_1/new/CreateRandom.sv"
+sv xil_defaultlib  "../../../SnakeProject.srcs/sources_1/new/ClockModulee.sv"
+sv xil_defaultlib  "../../../SnakeProject.srcs/sources_1/new/PositionSnake.sv"
+sv xil_defaultlib  "../../../SnakeProject.srcs/sources_1/new/DisplayModule.sv"
+sv xil_defaultlib  "../../../SnakeProject.srcs/sim_1/new/deneme.sv"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

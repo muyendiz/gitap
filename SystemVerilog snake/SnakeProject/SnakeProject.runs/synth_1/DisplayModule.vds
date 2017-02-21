@@ -1,0 +1,600 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Sat Dec 24 18:54:14 2016
+# Process ID: 7916
+# Current directory: C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.runs/synth_1
+# Command line: vivado.exe -log DisplayModule.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source DisplayModule.tcl
+# Log file: C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.runs/synth_1/DisplayModule.vds
+# Journal file: C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source DisplayModule.tcl -notrace
+Command: synth_design -top DisplayModule -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 6340 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:19 . Memory (MB): peak = 282.035 ; gain = 72.754
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'DisplayModule' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/DisplayModule.sv:23]
+INFO: [Synth 8-638] synthesizing module 'PositionSnake' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:23]
+INFO: [Synth 8-638] synthesizing module 'ClockModulee' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/ClockModulee.sv:23]
+INFO: [Synth 8-256] done synthesizing module 'ClockModulee' (1#1) [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/ClockModulee.sv:23]
+INFO: [Synth 8-638] synthesizing module 'CreateRandom' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/CreateRandom.sv:23]
+INFO: [Synth 8-256] done synthesizing module 'CreateRandom' (2#1) [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/CreateRandom.sv:23]
+WARNING: [Synth 8-567] referenced signal 'direction' should be on the sensitivity list [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:188]
+WARNING: [Synth 8-87] always_comb on 'start_reg' did not result in combinational logic [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:59]
+WARNING: [Synth 8-87] always_comb on 'direction_reg' did not result in combinational logic [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:61]
+WARNING: [Synth 8-87] always_comb on 'msnakex_reg[15]' did not result in combinational logic [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+WARNING: [Synth 8-87] always_comb on 'msnakex_reg[14]' did not result in combinational logic [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+WARNING: [Synth 8-87] always_comb on 'msnakex_reg[13]' did not result in combinational logic [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+WARNING: [Synth 8-87] always_comb on 'msnakex_reg[12]' did not result in combinational logic [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+WARNING: [Synth 8-87] always_comb on 'msnakex_reg[11]' did not result in combinational logic [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+WARNING: [Synth 8-87] always_comb on 'msnakex_reg[10]' did not result in combinational logic [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+WARNING: [Synth 8-87] always_comb on 'msnakex_reg[9]' did not result in combinational logic [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+WARNING: [Synth 8-87] always_comb on 'msnakex_reg[8]' did not result in combinational logic [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+WARNING: [Synth 8-87] always_comb on 'msnakex_reg[7]' did not result in combinational logic [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+WARNING: [Synth 8-87] always_comb on 'msnakex_reg[6]' did not result in combinational logic [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+WARNING: [Synth 8-87] always_comb on 'msnakex_reg[5]' did not result in combinational logic [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+WARNING: [Synth 8-87] always_comb on 'msnakex_reg[4]' did not result in combinational logic [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+WARNING: [Synth 8-87] always_comb on 'msnakex_reg[3]' did not result in combinational logic [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+WARNING: [Synth 8-87] always_comb on 'msnakex_reg[2]' did not result in combinational logic [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+WARNING: [Synth 8-87] always_comb on 'msnakex_reg[1]' did not result in combinational logic [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+WARNING: [Synth 8-87] always_comb on 'msnakex_reg[0]' did not result in combinational logic [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+WARNING: [Synth 8-87] always_comb on 'msnakey_reg[15]' did not result in combinational logic [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:52]
+WARNING: [Synth 8-87] always_comb on 'msnakey_reg[14]' did not result in combinational logic [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:52]
+WARNING: [Synth 8-87] always_comb on 'msnakey_reg[13]' did not result in combinational logic [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:52]
+WARNING: [Synth 8-87] always_comb on 'msnakey_reg[12]' did not result in combinational logic [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:52]
+WARNING: [Synth 8-87] always_comb on 'msnakey_reg[11]' did not result in combinational logic [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:52]
+WARNING: [Synth 8-87] always_comb on 'msnakey_reg[10]' did not result in combinational logic [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:52]
+WARNING: [Synth 8-87] always_comb on 'msnakey_reg[9]' did not result in combinational logic [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:52]
+WARNING: [Synth 8-87] always_comb on 'msnakey_reg[8]' did not result in combinational logic [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:52]
+WARNING: [Synth 8-87] always_comb on 'msnakey_reg[7]' did not result in combinational logic [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:52]
+WARNING: [Synth 8-87] always_comb on 'msnakey_reg[6]' did not result in combinational logic [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:52]
+WARNING: [Synth 8-87] always_comb on 'msnakey_reg[5]' did not result in combinational logic [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:52]
+WARNING: [Synth 8-87] always_comb on 'msnakey_reg[4]' did not result in combinational logic [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:52]
+WARNING: [Synth 8-87] always_comb on 'msnakey_reg[3]' did not result in combinational logic [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:52]
+WARNING: [Synth 8-87] always_comb on 'msnakey_reg[2]' did not result in combinational logic [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:52]
+WARNING: [Synth 8-87] always_comb on 'msnakey_reg[1]' did not result in combinational logic [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:52]
+WARNING: [Synth 8-87] always_comb on 'msnakey_reg[0]' did not result in combinational logic [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:52]
+WARNING: [Synth 8-87] always_comb on 'random_reg' did not result in combinational logic [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:76]
+WARNING: [Synth 8-87] always_comb on 'gameisOver_reg' did not result in combinational logic [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:85]
+WARNING: [Synth 8-87] always_comb on 'stop_reg' did not result in combinational logic [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:86]
+WARNING: [Synth 8-87] always_comb on 'gameisOver_reg' did not result in combinational logic [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:171]
+INFO: [Synth 8-256] done synthesizing module 'PositionSnake' (3#1) [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:23]
+INFO: [Synth 8-256] done synthesizing module 'DisplayModule' (4#1) [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/DisplayModule.sv:23]
+WARNING: [Synth 8-3917] design DisplayModule has port anodes[7] driven by constant 0
+WARNING: [Synth 8-3917] design DisplayModule has port anodes[6] driven by constant 0
+WARNING: [Synth 8-3917] design DisplayModule has port anodes[5] driven by constant 0
+WARNING: [Synth 8-3917] design DisplayModule has port anodes[4] driven by constant 0
+WARNING: [Synth 8-3917] design DisplayModule has port anodes[3] driven by constant 0
+WARNING: [Synth 8-3917] design DisplayModule has port anodes[2] driven by constant 0
+WARNING: [Synth 8-3917] design DisplayModule has port anodes[1] driven by constant 0
+WARNING: [Synth 8-3917] design DisplayModule has port katodes[7] driven by constant 1
+WARNING: [Synth 8-3917] design DisplayModule has port katodes[6] driven by constant 1
+WARNING: [Synth 8-3917] design DisplayModule has port katodes[5] driven by constant 1
+WARNING: [Synth 8-3917] design DisplayModule has port katodes[4] driven by constant 1
+WARNING: [Synth 8-3917] design DisplayModule has port katodes[3] driven by constant 1
+WARNING: [Synth 8-3917] design DisplayModule has port katodes[2] driven by constant 1
+WARNING: [Synth 8-3917] design DisplayModule has port katodes[1] driven by constant 1
+WARNING: [Synth 8-3917] design DisplayModule has port katodes[0] driven by constant 0
+WARNING: [Synth 8-3331] design PositionSnake has unconnected port Pause
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:22 . Memory (MB): peak = 334.055 ; gain = 124.773
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:23 . Memory (MB): peak = 334.055 ; gain = 124.773
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/constrs_1/new/constraint.xdc]
+Finished Parsing XDC File [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/constrs_1/new/constraint.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/constrs_1/new/constraint.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/DisplayModule_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/DisplayModule_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.021 . Memory (MB): peak = 637.676 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:28 ; elapsed = 00:00:50 . Memory (MB): peak = 637.676 ; gain = 428.395
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:28 ; elapsed = 00:00:50 . Memory (MB): peak = 637.676 ; gain = 428.395
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:50 . Memory (MB): peak = 637.676 ; gain = 428.395
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "mfirst" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "msecond" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "y" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "y" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+WARNING: [Synth 8-327] inferring latch for variable 'msnakex_reg[15]' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+WARNING: [Synth 8-327] inferring latch for variable 'msnakex_reg[14]' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+WARNING: [Synth 8-327] inferring latch for variable 'msnakex_reg[13]' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+WARNING: [Synth 8-327] inferring latch for variable 'msnakex_reg[12]' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+WARNING: [Synth 8-327] inferring latch for variable 'msnakex_reg[11]' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+WARNING: [Synth 8-327] inferring latch for variable 'msnakex_reg[10]' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+WARNING: [Synth 8-327] inferring latch for variable 'msnakex_reg[9]' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+WARNING: [Synth 8-327] inferring latch for variable 'msnakex_reg[8]' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+WARNING: [Synth 8-327] inferring latch for variable 'msnakex_reg[7]' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+WARNING: [Synth 8-327] inferring latch for variable 'msnakex_reg[6]' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+WARNING: [Synth 8-327] inferring latch for variable 'msnakex_reg[5]' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+WARNING: [Synth 8-327] inferring latch for variable 'msnakex_reg[4]' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+WARNING: [Synth 8-327] inferring latch for variable 'msnakex_reg[3]' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+WARNING: [Synth 8-327] inferring latch for variable 'msnakex_reg[2]' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+WARNING: [Synth 8-327] inferring latch for variable 'msnakex_reg[1]' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+WARNING: [Synth 8-327] inferring latch for variable 'msnakex_reg[0]' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+WARNING: [Synth 8-327] inferring latch for variable 'msnakey_reg[15]' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:52]
+WARNING: [Synth 8-327] inferring latch for variable 'msnakey_reg[14]' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:52]
+WARNING: [Synth 8-327] inferring latch for variable 'msnakey_reg[13]' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:52]
+WARNING: [Synth 8-327] inferring latch for variable 'msnakey_reg[12]' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:52]
+WARNING: [Synth 8-327] inferring latch for variable 'msnakey_reg[11]' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:52]
+WARNING: [Synth 8-327] inferring latch for variable 'msnakey_reg[10]' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:52]
+WARNING: [Synth 8-327] inferring latch for variable 'msnakey_reg[9]' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:52]
+WARNING: [Synth 8-327] inferring latch for variable 'msnakey_reg[8]' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:52]
+WARNING: [Synth 8-327] inferring latch for variable 'msnakey_reg[7]' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:52]
+WARNING: [Synth 8-327] inferring latch for variable 'msnakey_reg[6]' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:52]
+WARNING: [Synth 8-327] inferring latch for variable 'msnakey_reg[5]' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:52]
+WARNING: [Synth 8-327] inferring latch for variable 'msnakey_reg[4]' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:52]
+WARNING: [Synth 8-327] inferring latch for variable 'msnakey_reg[3]' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:52]
+WARNING: [Synth 8-327] inferring latch for variable 'msnakey_reg[2]' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:52]
+WARNING: [Synth 8-327] inferring latch for variable 'msnakey_reg[1]' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:52]
+WARNING: [Synth 8-327] inferring latch for variable 'msnakey_reg[0]' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:52]
+WARNING: [Synth 8-327] inferring latch for variable 'random_reg' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:76]
+WARNING: [Synth 8-327] inferring latch for variable 'direction_reg' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:61]
+WARNING: [Synth 8-327] inferring latch for variable 'start_reg' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:59]
+WARNING: [Synth 8-327] inferring latch for variable 'gameisOver_reg' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:171]
+WARNING: [Synth 8-327] inferring latch for variable 'gameisOver_reg' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:85]
+WARNING: [Synth 8-327] inferring latch for variable 'stop_reg' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:86]
+WARNING: [Synth 8-327] inferring latch for variable 'dir1_reg' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:189]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:29 ; elapsed = 00:00:51 . Memory (MB): peak = 637.676 ; gain = 428.395
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
+	   3 Input     32 Bit       Adders := 11    
+	   2 Input     11 Bit       Adders := 2     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 2     
+	   2 Input      1 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 2     
+	               11 Bit    Registers := 2     
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 65    
+	   4 Input     32 Bit        Muxes := 1     
+	   3 Input     32 Bit        Muxes := 1     
+	   5 Input     32 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   4 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 4     
+	   3 Input      1 Bit        Muxes := 2     
+	  11 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module DisplayModule 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 11    
+Module ClockModulee 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               11 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+Module CreateRandom 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
+Module PositionSnake 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
+	   2 Input      2 Bit       Adders := 2     
+	   2 Input      1 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 65    
+	   4 Input     32 Bit        Muxes := 1     
+	   3 Input     32 Bit        Muxes := 1     
+	   5 Input     32 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   4 Input      5 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+	  11 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3917] design DisplayModule has port anodes[7] driven by constant 0
+WARNING: [Synth 8-3917] design DisplayModule has port anodes[6] driven by constant 0
+WARNING: [Synth 8-3917] design DisplayModule has port anodes[5] driven by constant 0
+WARNING: [Synth 8-3917] design DisplayModule has port anodes[4] driven by constant 0
+WARNING: [Synth 8-3917] design DisplayModule has port anodes[3] driven by constant 0
+WARNING: [Synth 8-3917] design DisplayModule has port anodes[2] driven by constant 0
+WARNING: [Synth 8-3917] design DisplayModule has port anodes[1] driven by constant 0
+WARNING: [Synth 8-3917] design DisplayModule has port katodes[7] driven by constant 1
+WARNING: [Synth 8-3917] design DisplayModule has port katodes[6] driven by constant 1
+WARNING: [Synth 8-3917] design DisplayModule has port katodes[5] driven by constant 1
+WARNING: [Synth 8-3917] design DisplayModule has port katodes[4] driven by constant 1
+WARNING: [Synth 8-3917] design DisplayModule has port katodes[3] driven by constant 1
+WARNING: [Synth 8-3917] design DisplayModule has port katodes[2] driven by constant 1
+WARNING: [Synth 8-3917] design DisplayModule has port katodes[1] driven by constant 1
+WARNING: [Synth 8-3917] design DisplayModule has port katodes[0] driven by constant 0
+WARNING: [Synth 8-3331] design PositionSnake has unconnected port Pause
+WARNING: [Synth 8-3332] Sequential element (msecond_reg[2]) is unused and will be removed from module ClockModulee.
+WARNING: [Synth 8-3332] Sequential element (msecond_reg[1]) is unused and will be removed from module ClockModulee.
+WARNING: [Synth 8-3332] Sequential element (random_reg[5]) is unused and will be removed from module PositionSnake.
+WARNING: [Synth 8-3332] Sequential element (random_reg[4]) is unused and will be removed from module PositionSnake.
+WARNING: [Synth 8-3332] Sequential element (random_reg[2]) is unused and will be removed from module PositionSnake.
+WARNING: [Synth 8-3332] Sequential element (random_reg[1]) is unused and will be removed from module PositionSnake.
+WARNING: [Synth 8-3332] Sequential element (random_reg[5]__0) is unused and will be removed from module PositionSnake.
+WARNING: [Synth 8-3332] Sequential element (random_reg[4]__0) is unused and will be removed from module PositionSnake.
+WARNING: [Synth 8-3332] Sequential element (random_reg[2]__0) is unused and will be removed from module PositionSnake.
+WARNING: [Synth 8-3332] Sequential element (random_reg[1]__0) is unused and will be removed from module PositionSnake.
+WARNING: [Synth 8-3332] Sequential element (create/tempRandom_reg[5]) is unused and will be removed from module PositionSnake.
+WARNING: [Synth 8-3332] Sequential element (create/tempRandom_reg[4]) is unused and will be removed from module PositionSnake.
+WARNING: [Synth 8-3332] Sequential element (changeClk/count_change_reg[0]) is unused and will be removed from module DisplayModule.
+WARNING: [Synth 8-3332] Sequential element (changeClk/count_change_reg[1]) is unused and will be removed from module DisplayModule.
+WARNING: [Synth 8-3332] Sequential element (changeClk/count_change_reg[2]) is unused and will be removed from module DisplayModule.
+WARNING: [Synth 8-3332] Sequential element (changeClk/count_change_reg[3]) is unused and will be removed from module DisplayModule.
+WARNING: [Synth 8-3332] Sequential element (changeClk/count_change_reg[4]) is unused and will be removed from module DisplayModule.
+WARNING: [Synth 8-3332] Sequential element (changeClk/count_change_reg[5]) is unused and will be removed from module DisplayModule.
+WARNING: [Synth 8-3332] Sequential element (changeClk/count_change_reg[6]) is unused and will be removed from module DisplayModule.
+WARNING: [Synth 8-3332] Sequential element (changeClk/count_change_reg[7]) is unused and will be removed from module DisplayModule.
+WARNING: [Synth 8-3332] Sequential element (changeClk/count_change_reg[8]) is unused and will be removed from module DisplayModule.
+WARNING: [Synth 8-3332] Sequential element (changeClk/count_change_reg[9]) is unused and will be removed from module DisplayModule.
+WARNING: [Synth 8-3332] Sequential element (changeClk/count_change_reg[10]) is unused and will be removed from module DisplayModule.
+WARNING: [Synth 8-3332] Sequential element (changeClk/count_change_reg[11]) is unused and will be removed from module DisplayModule.
+WARNING: [Synth 8-3332] Sequential element (changeClk/mthird_reg[3]) is unused and will be removed from module DisplayModule.
+WARNING: [Synth 8-3332] Sequential element (changeClk/mthird_reg[2]) is unused and will be removed from module DisplayModule.
+WARNING: [Synth 8-3332] Sequential element (changeClk/mthird_reg[1]) is unused and will be removed from module DisplayModule.
+WARNING: [Synth 8-3332] Sequential element (changeClk/mthird_reg[0]) is unused and will be removed from module DisplayModule.
+WARNING: [Synth 8-3332] Sequential element (changeClk/mfirst_reg[10]) is unused and will be removed from module DisplayModule.
+WARNING: [Synth 8-3332] Sequential element (changeClk/mfirst_reg[9]) is unused and will be removed from module DisplayModule.
+WARNING: [Synth 8-3332] Sequential element (changeClk/mfirst_reg[8]) is unused and will be removed from module DisplayModule.
+WARNING: [Synth 8-3332] Sequential element (changeClk/mfirst_reg[7]) is unused and will be removed from module DisplayModule.
+WARNING: [Synth 8-3332] Sequential element (changeClk/mfirst_reg[6]) is unused and will be removed from module DisplayModule.
+WARNING: [Synth 8-3332] Sequential element (changeClk/mfirst_reg[5]) is unused and will be removed from module DisplayModule.
+WARNING: [Synth 8-3332] Sequential element (changeClk/mfirst_reg[4]) is unused and will be removed from module DisplayModule.
+WARNING: [Synth 8-3332] Sequential element (changeClk/mfirst_reg[3]) is unused and will be removed from module DisplayModule.
+WARNING: [Synth 8-3332] Sequential element (changeClk/mfirst_reg[2]) is unused and will be removed from module DisplayModule.
+WARNING: [Synth 8-3332] Sequential element (changeClk/mfirst_reg[1]) is unused and will be removed from module DisplayModule.
+WARNING: [Synth 8-3332] Sequential element (changeClk/mfirst_reg[0]) is unused and will be removed from module DisplayModule.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:40 ; elapsed = 00:01:03 . Memory (MB): peak = 673.422 ; gain = 464.141
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:56 ; elapsed = 00:01:19 . Memory (MB): peak = 673.422 ; gain = 464.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:57 ; elapsed = 00:01:20 . Memory (MB): peak = 673.422 ; gain = 464.141
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:59 ; elapsed = 00:01:22 . Memory (MB): peak = 673.422 ; gain = 464.141
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:00 ; elapsed = 00:01:23 . Memory (MB): peak = 673.422 ; gain = 464.141
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][31] with 1st driver pin 'takePosition/msnakex_reg[15][31]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][31] with 2nd driver pin 'takePosition/msnakex_reg[15][31]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][31] with 1st driver pin 'takePosition/msnakex_reg[14][31]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][31] with 2nd driver pin 'takePosition/msnakex_reg[14][31]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][30] with 1st driver pin 'takePosition/msnakex_reg[15][30]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][30] with 2nd driver pin 'takePosition/msnakex_reg[15][30]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][30] with 1st driver pin 'takePosition/msnakex_reg[14][30]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][30] with 2nd driver pin 'takePosition/msnakex_reg[14][30]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][29] with 1st driver pin 'takePosition/msnakex_reg[15][29]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][29] with 2nd driver pin 'takePosition/msnakex_reg[15][29]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][29] with 1st driver pin 'takePosition/msnakex_reg[14][29]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][29] with 2nd driver pin 'takePosition/msnakex_reg[14][29]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][28] with 1st driver pin 'takePosition/msnakex_reg[15][28]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][28] with 2nd driver pin 'takePosition/msnakex_reg[15][28]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][28] with 1st driver pin 'takePosition/msnakex_reg[14][28]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][28] with 2nd driver pin 'takePosition/msnakex_reg[14][28]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][27] with 1st driver pin 'takePosition/msnakex_reg[15][27]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][27] with 2nd driver pin 'takePosition/msnakex_reg[15][27]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][27] with 1st driver pin 'takePosition/msnakex_reg[14][27]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][27] with 2nd driver pin 'takePosition/msnakex_reg[14][27]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][26] with 1st driver pin 'takePosition/msnakex_reg[15][26]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][26] with 2nd driver pin 'takePosition/msnakex_reg[15][26]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][26] with 1st driver pin 'takePosition/msnakex_reg[14][26]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][26] with 2nd driver pin 'takePosition/msnakex_reg[14][26]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][25] with 1st driver pin 'takePosition/msnakex_reg[15][25]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][25] with 2nd driver pin 'takePosition/msnakex_reg[15][25]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][25] with 1st driver pin 'takePosition/msnakex_reg[14][25]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][25] with 2nd driver pin 'takePosition/msnakex_reg[14][25]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][24] with 1st driver pin 'takePosition/msnakex_reg[15][24]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][24] with 2nd driver pin 'takePosition/msnakex_reg[15][24]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][24] with 1st driver pin 'takePosition/msnakex_reg[14][24]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][24] with 2nd driver pin 'takePosition/msnakex_reg[14][24]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][23] with 1st driver pin 'takePosition/msnakex_reg[15][23]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][23] with 2nd driver pin 'takePosition/msnakex_reg[15][23]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][23] with 1st driver pin 'takePosition/msnakex_reg[14][23]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][23] with 2nd driver pin 'takePosition/msnakex_reg[14][23]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][22] with 1st driver pin 'takePosition/msnakex_reg[15][22]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][22] with 2nd driver pin 'takePosition/msnakex_reg[15][22]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][22] with 1st driver pin 'takePosition/msnakex_reg[14][22]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][22] with 2nd driver pin 'takePosition/msnakex_reg[14][22]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][21] with 1st driver pin 'takePosition/msnakex_reg[15][21]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][21] with 2nd driver pin 'takePosition/msnakex_reg[15][21]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][21] with 1st driver pin 'takePosition/msnakex_reg[14][21]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][21] with 2nd driver pin 'takePosition/msnakex_reg[14][21]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][20] with 1st driver pin 'takePosition/msnakex_reg[15][20]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][20] with 2nd driver pin 'takePosition/msnakex_reg[15][20]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][20] with 1st driver pin 'takePosition/msnakex_reg[14][20]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][20] with 2nd driver pin 'takePosition/msnakex_reg[14][20]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][19] with 1st driver pin 'takePosition/msnakex_reg[15][19]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][19] with 2nd driver pin 'takePosition/msnakex_reg[15][19]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][19] with 1st driver pin 'takePosition/msnakex_reg[14][19]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][19] with 2nd driver pin 'takePosition/msnakex_reg[14][19]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][18] with 1st driver pin 'takePosition/msnakex_reg[15][18]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][18] with 2nd driver pin 'takePosition/msnakex_reg[15][18]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][18] with 1st driver pin 'takePosition/msnakex_reg[14][18]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][18] with 2nd driver pin 'takePosition/msnakex_reg[14][18]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][17] with 1st driver pin 'takePosition/msnakex_reg[15][17]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][17] with 2nd driver pin 'takePosition/msnakex_reg[15][17]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][17] with 1st driver pin 'takePosition/msnakex_reg[14][17]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][17] with 2nd driver pin 'takePosition/msnakex_reg[14][17]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][16] with 1st driver pin 'takePosition/msnakex_reg[15][16]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][16] with 2nd driver pin 'takePosition/msnakex_reg[15][16]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][16] with 1st driver pin 'takePosition/msnakex_reg[14][16]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][16] with 2nd driver pin 'takePosition/msnakex_reg[14][16]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][15] with 1st driver pin 'takePosition/msnakex_reg[15][15]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][15] with 2nd driver pin 'takePosition/msnakex_reg[15][15]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][15] with 1st driver pin 'takePosition/msnakex_reg[14][15]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][15] with 2nd driver pin 'takePosition/msnakex_reg[14][15]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][14] with 1st driver pin 'takePosition/msnakex_reg[15][14]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][14] with 2nd driver pin 'takePosition/msnakex_reg[15][14]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][14] with 1st driver pin 'takePosition/msnakex_reg[14][14]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][14] with 2nd driver pin 'takePosition/msnakex_reg[14][14]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][13] with 1st driver pin 'takePosition/msnakex_reg[15][13]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][13] with 2nd driver pin 'takePosition/msnakex_reg[15][13]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][13] with 1st driver pin 'takePosition/msnakex_reg[14][13]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][13] with 2nd driver pin 'takePosition/msnakex_reg[14][13]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][12] with 1st driver pin 'takePosition/msnakex_reg[15][12]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][12] with 2nd driver pin 'takePosition/msnakex_reg[15][12]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][12] with 1st driver pin 'takePosition/msnakex_reg[14][12]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][12] with 2nd driver pin 'takePosition/msnakex_reg[14][12]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][11] with 1st driver pin 'takePosition/msnakex_reg[15][11]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][11] with 2nd driver pin 'takePosition/msnakex_reg[15][11]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][11] with 1st driver pin 'takePosition/msnakex_reg[14][11]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][11] with 2nd driver pin 'takePosition/msnakex_reg[14][11]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][10] with 1st driver pin 'takePosition/msnakex_reg[15][10]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][10] with 2nd driver pin 'takePosition/msnakex_reg[15][10]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][10] with 1st driver pin 'takePosition/msnakex_reg[14][10]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][10] with 2nd driver pin 'takePosition/msnakex_reg[14][10]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][9] with 1st driver pin 'takePosition/msnakex_reg[15][9]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][9] with 2nd driver pin 'takePosition/msnakex_reg[15][9]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][9] with 1st driver pin 'takePosition/msnakex_reg[14][9]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][9] with 2nd driver pin 'takePosition/msnakex_reg[14][9]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][8] with 1st driver pin 'takePosition/msnakex_reg[15][8]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][8] with 2nd driver pin 'takePosition/msnakex_reg[15][8]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][8] with 1st driver pin 'takePosition/msnakex_reg[14][8]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][8] with 2nd driver pin 'takePosition/msnakex_reg[14][8]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][7] with 1st driver pin 'takePosition/msnakex_reg[15][7]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[15][7] with 2nd driver pin 'takePosition/msnakex_reg[15][7]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][7] with 1st driver pin 'takePosition/msnakex_reg[14][7]/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:99]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net takePosition/msnakex_reg_n_0_[14][7] with 2nd driver pin 'takePosition/msnakex_reg[14][7]__0/Q' [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/sources_1/new/PositionSnake.sv:51]
+INFO: [Common 17-14] Message 'Synth 8-3352' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|     1027|Failed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:00 ; elapsed = 00:01:23 . Memory (MB): peak = 673.422 ; gain = 464.141
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:00 ; elapsed = 00:01:24 . Memory (MB): peak = 673.422 ; gain = 464.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:00 ; elapsed = 00:01:24 . Memory (MB): peak = 673.422 ; gain = 464.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:00 ; elapsed = 00:01:24 . Memory (MB): peak = 673.422 ; gain = 464.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:00 ; elapsed = 00:01:24 . Memory (MB): peak = 673.422 ; gain = 464.141
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     5|
+|2     |CARRY4 |   310|
+|3     |LUT1   |   162|
+|4     |LUT2   |   885|
+|5     |LUT3   |   150|
+|6     |LUT4   |   334|
+|7     |LUT5   |    42|
+|8     |LUT6   |   288|
+|9     |FDRE   |  1124|
+|10    |LD     |  1032|
+|11    |LDP    |     2|
+|12    |IBUF   |     5|
+|13    |OBUF   |    16|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------------+--------------+------+
+|      |Instance       |Module        |Cells |
++------+---------------+--------------+------+
+|1     |top            |              |  4355|
+|2     |  takePosition |PositionSnake |  3161|
+|3     |    change     |ClockModulee  |    68|
+|4     |    create     |CreateRandom  |    10|
++------+---------------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:00 ; elapsed = 00:01:24 . Memory (MB): peak = 673.422 ; gain = 464.141
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 2054 critical warnings and 94 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:38 ; elapsed = 00:00:52 . Memory (MB): peak = 673.422 ; gain = 160.520
+Synthesis Optimization Complete : Time (s): cpu = 00:01:01 ; elapsed = 00:01:24 . Memory (MB): peak = 673.422 ; gain = 464.141
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 1349 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1034 instances were transformed.
+  LD => LDCE: 1032 instances
+  LDP => LDPE: 2 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+29 Infos, 149 Warnings, 100 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:00 ; elapsed = 00:01:18 . Memory (MB): peak = 673.422 ; gain = 464.141
+INFO: [Common 17-1381] The checkpoint 'C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.runs/synth_1/DisplayModule.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.125 . Memory (MB): peak = 673.422 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sat Dec 24 18:55:50 2016...

@@ -1,0 +1,146 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Sat Dec 24 18:56:00 2016
+# Process ID: 7436
+# Current directory: C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.runs/impl_1
+# Command line: vivado.exe -log DisplayModule.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source DisplayModule.tcl -notrace
+# Log file: C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.runs/impl_1/DisplayModule.vdi
+# Journal file: C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source DisplayModule.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 315 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.3
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/constrs_1/new/constraint.xdc]
+Finished Parsing XDC File [C:/Users/furkanerdem/Desktop/SnakeProject/SnakeProject.srcs/constrs_1/new/constraint.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+link_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 463.727 ; gain = 253.910
+INFO: [Vivado_Tcl 4-424] Cannot write hardware definition file as there are no IPI block design hardware handoff files present
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/Q[0] has multiple drivers: takePosition/msnakey_reg[15][0]/Q, takePosition/msnakey_reg[15][0]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/Q[10] has multiple drivers: takePosition/msnakey_reg[15][10]/Q, takePosition/msnakey_reg[15][10]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/Q[11] has multiple drivers: takePosition/msnakey_reg[15][11]/Q, takePosition/msnakey_reg[15][11]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/Q[12] has multiple drivers: takePosition/msnakey_reg[15][12]/Q, takePosition/msnakey_reg[15][12]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/Q[13] has multiple drivers: takePosition/msnakey_reg[15][13]/Q, takePosition/msnakey_reg[15][13]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/Q[14] has multiple drivers: takePosition/msnakey_reg[15][14]/Q, takePosition/msnakey_reg[15][14]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/Q[15] has multiple drivers: takePosition/msnakey_reg[15][15]/Q, takePosition/msnakey_reg[15][15]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/Q[16] has multiple drivers: takePosition/msnakey_reg[15][16]/Q, takePosition/msnakey_reg[15][16]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/Q[17] has multiple drivers: takePosition/msnakey_reg[15][17]/Q, takePosition/msnakey_reg[15][17]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/Q[18] has multiple drivers: takePosition/msnakey_reg[15][18]/Q, takePosition/msnakey_reg[15][18]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/Q[19] has multiple drivers: takePosition/msnakey_reg[15][19]/Q, takePosition/msnakey_reg[15][19]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/Q[1] has multiple drivers: takePosition/msnakey_reg[15][1]/Q, takePosition/msnakey_reg[15][1]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/Q[20] has multiple drivers: takePosition/msnakey_reg[15][20]/Q, takePosition/msnakey_reg[15][20]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/Q[21] has multiple drivers: takePosition/msnakey_reg[15][21]/Q, takePosition/msnakey_reg[15][21]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/Q[22] has multiple drivers: takePosition/msnakey_reg[15][22]/Q, takePosition/msnakey_reg[15][22]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/Q[23] has multiple drivers: takePosition/msnakey_reg[15][23]/Q, takePosition/msnakey_reg[15][23]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/Q[24] has multiple drivers: takePosition/msnakey_reg[15][24]/Q, takePosition/msnakey_reg[15][24]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/Q[25] has multiple drivers: takePosition/msnakey_reg[15][25]/Q, takePosition/msnakey_reg[15][25]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/Q[26] has multiple drivers: takePosition/msnakey_reg[15][26]/Q, takePosition/msnakey_reg[15][26]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/Q[27] has multiple drivers: takePosition/msnakey_reg[15][27]/Q, takePosition/msnakey_reg[15][27]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/Q[28] has multiple drivers: takePosition/msnakey_reg[15][28]/Q, takePosition/msnakey_reg[15][28]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/Q[29] has multiple drivers: takePosition/msnakey_reg[15][29]/Q, takePosition/msnakey_reg[15][29]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/Q[2] has multiple drivers: takePosition/msnakey_reg[15][2]/Q, takePosition/msnakey_reg[15][2]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/Q[30] has multiple drivers: takePosition/msnakey_reg[15][30]/Q, takePosition/msnakey_reg[15][30]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/Q[31] has multiple drivers: takePosition/msnakey_reg[15][31]/Q, takePosition/msnakey_reg[15][31]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/Q[3] has multiple drivers: takePosition/msnakey_reg[15][3]/Q, takePosition/msnakey_reg[15][3]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/Q[4] has multiple drivers: takePosition/msnakey_reg[15][4]/Q, takePosition/msnakey_reg[15][4]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/Q[5] has multiple drivers: takePosition/msnakey_reg[15][5]/Q, takePosition/msnakey_reg[15][5]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/Q[6] has multiple drivers: takePosition/msnakey_reg[15][6]/Q, takePosition/msnakey_reg[15][6]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/Q[7] has multiple drivers: takePosition/msnakey_reg[15][7]/Q, takePosition/msnakey_reg[15][7]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/Q[8] has multiple drivers: takePosition/msnakey_reg[15][8]/Q, takePosition/msnakey_reg[15][8]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/Q[9] has multiple drivers: takePosition/msnakey_reg[15][9]/Q, takePosition/msnakey_reg[15][9]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/gameisOver has multiple drivers: takePosition/gameisOver_reg__0/Q, takePosition/gameisOver_reg/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[10][31]_0[0] has multiple drivers: takePosition/msnakex_reg[9][0]/Q, takePosition/msnakex_reg[9][0]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[10][31]_0[10] has multiple drivers: takePosition/msnakex_reg[9][10]/Q, takePosition/msnakex_reg[9][10]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[10][31]_0[11] has multiple drivers: takePosition/msnakex_reg[9][11]/Q, takePosition/msnakex_reg[9][11]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[10][31]_0[12] has multiple drivers: takePosition/msnakex_reg[9][12]/Q, takePosition/msnakex_reg[9][12]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[10][31]_0[13] has multiple drivers: takePosition/msnakex_reg[9][13]/Q, takePosition/msnakex_reg[9][13]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[10][31]_0[14] has multiple drivers: takePosition/msnakex_reg[9][14]/Q, takePosition/msnakex_reg[9][14]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[10][31]_0[15] has multiple drivers: takePosition/msnakex_reg[9][15]/Q, takePosition/msnakex_reg[9][15]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[10][31]_0[16] has multiple drivers: takePosition/msnakex_reg[9][16]/Q, takePosition/msnakex_reg[9][16]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[10][31]_0[17] has multiple drivers: takePosition/msnakex_reg[9][17]/Q, takePosition/msnakex_reg[9][17]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[10][31]_0[18] has multiple drivers: takePosition/msnakex_reg[9][18]/Q, takePosition/msnakex_reg[9][18]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[10][31]_0[19] has multiple drivers: takePosition/msnakex_reg[9][19]/Q, takePosition/msnakex_reg[9][19]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[10][31]_0[1] has multiple drivers: takePosition/msnakex_reg[9][1]/Q, takePosition/msnakex_reg[9][1]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[10][31]_0[20] has multiple drivers: takePosition/msnakex_reg[9][20]/Q, takePosition/msnakex_reg[9][20]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[10][31]_0[21] has multiple drivers: takePosition/msnakex_reg[9][21]/Q, takePosition/msnakex_reg[9][21]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[10][31]_0[22] has multiple drivers: takePosition/msnakex_reg[9][22]/Q, takePosition/msnakex_reg[9][22]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[10][31]_0[23] has multiple drivers: takePosition/msnakex_reg[9][23]/Q, takePosition/msnakex_reg[9][23]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[10][31]_0[24] has multiple drivers: takePosition/msnakex_reg[9][24]/Q, takePosition/msnakex_reg[9][24]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[10][31]_0[25] has multiple drivers: takePosition/msnakex_reg[9][25]/Q, takePosition/msnakex_reg[9][25]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[10][31]_0[26] has multiple drivers: takePosition/msnakex_reg[9][26]/Q, takePosition/msnakex_reg[9][26]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[10][31]_0[27] has multiple drivers: takePosition/msnakex_reg[9][27]/Q, takePosition/msnakex_reg[9][27]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[10][31]_0[28] has multiple drivers: takePosition/msnakex_reg[9][28]/Q, takePosition/msnakex_reg[9][28]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[10][31]_0[29] has multiple drivers: takePosition/msnakex_reg[9][29]/Q, takePosition/msnakex_reg[9][29]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[10][31]_0[2] has multiple drivers: takePosition/msnakex_reg[9][2]/Q, takePosition/msnakex_reg[9][2]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[10][31]_0[30] has multiple drivers: takePosition/msnakex_reg[9][30]/Q, takePosition/msnakex_reg[9][30]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[10][31]_0[31] has multiple drivers: takePosition/msnakex_reg[9][31]/Q, takePosition/msnakex_reg[9][31]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[10][31]_0[3] has multiple drivers: takePosition/msnakex_reg[9][3]/Q, takePosition/msnakex_reg[9][3]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[10][31]_0[4] has multiple drivers: takePosition/msnakex_reg[9][4]/Q, takePosition/msnakex_reg[9][4]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[10][31]_0[5] has multiple drivers: takePosition/msnakex_reg[9][5]/Q, takePosition/msnakex_reg[9][5]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[10][31]_0[6] has multiple drivers: takePosition/msnakex_reg[9][6]/Q, takePosition/msnakex_reg[9][6]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[10][31]_0[7] has multiple drivers: takePosition/msnakex_reg[9][7]/Q, takePosition/msnakex_reg[9][7]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[10][31]_0[8] has multiple drivers: takePosition/msnakex_reg[9][8]/Q, takePosition/msnakex_reg[9][8]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[10][31]_0[9] has multiple drivers: takePosition/msnakex_reg[9][9]/Q, takePosition/msnakex_reg[9][9]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[11][31]_0[0] has multiple drivers: takePosition/msnakex_reg[10][0]/Q, takePosition/msnakex_reg[10][0]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[11][31]_0[10] has multiple drivers: takePosition/msnakex_reg[10][10]/Q, takePosition/msnakex_reg[10][10]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[11][31]_0[11] has multiple drivers: takePosition/msnakex_reg[10][11]/Q, takePosition/msnakex_reg[10][11]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[11][31]_0[12] has multiple drivers: takePosition/msnakex_reg[10][12]/Q, takePosition/msnakex_reg[10][12]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[11][31]_0[13] has multiple drivers: takePosition/msnakex_reg[10][13]/Q, takePosition/msnakex_reg[10][13]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[11][31]_0[14] has multiple drivers: takePosition/msnakex_reg[10][14]/Q, takePosition/msnakex_reg[10][14]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[11][31]_0[15] has multiple drivers: takePosition/msnakex_reg[10][15]/Q, takePosition/msnakex_reg[10][15]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[11][31]_0[16] has multiple drivers: takePosition/msnakex_reg[10][16]/Q, takePosition/msnakex_reg[10][16]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[11][31]_0[17] has multiple drivers: takePosition/msnakex_reg[10][17]/Q, takePosition/msnakex_reg[10][17]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[11][31]_0[18] has multiple drivers: takePosition/msnakex_reg[10][18]/Q, takePosition/msnakex_reg[10][18]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[11][31]_0[19] has multiple drivers: takePosition/msnakex_reg[10][19]/Q, takePosition/msnakex_reg[10][19]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[11][31]_0[1] has multiple drivers: takePosition/msnakex_reg[10][1]/Q, takePosition/msnakex_reg[10][1]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[11][31]_0[20] has multiple drivers: takePosition/msnakex_reg[10][20]/Q, takePosition/msnakex_reg[10][20]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[11][31]_0[21] has multiple drivers: takePosition/msnakex_reg[10][21]/Q, takePosition/msnakex_reg[10][21]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[11][31]_0[22] has multiple drivers: takePosition/msnakex_reg[10][22]/Q, takePosition/msnakex_reg[10][22]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[11][31]_0[23] has multiple drivers: takePosition/msnakex_reg[10][23]/Q, takePosition/msnakex_reg[10][23]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[11][31]_0[24] has multiple drivers: takePosition/msnakex_reg[10][24]/Q, takePosition/msnakex_reg[10][24]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[11][31]_0[25] has multiple drivers: takePosition/msnakex_reg[10][25]/Q, takePosition/msnakex_reg[10][25]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[11][31]_0[26] has multiple drivers: takePosition/msnakex_reg[10][26]/Q, takePosition/msnakex_reg[10][26]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[11][31]_0[27] has multiple drivers: takePosition/msnakex_reg[10][27]/Q, takePosition/msnakex_reg[10][27]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[11][31]_0[28] has multiple drivers: takePosition/msnakex_reg[10][28]/Q, takePosition/msnakex_reg[10][28]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[11][31]_0[29] has multiple drivers: takePosition/msnakex_reg[10][29]/Q, takePosition/msnakex_reg[10][29]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[11][31]_0[2] has multiple drivers: takePosition/msnakex_reg[10][2]/Q, takePosition/msnakex_reg[10][2]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[11][31]_0[30] has multiple drivers: takePosition/msnakex_reg[10][30]/Q, takePosition/msnakex_reg[10][30]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[11][31]_0[31] has multiple drivers: takePosition/msnakex_reg[10][31]/Q, takePosition/msnakex_reg[10][31]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[11][31]_0[3] has multiple drivers: takePosition/msnakex_reg[10][3]/Q, takePosition/msnakex_reg[10][3]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[11][31]_0[4] has multiple drivers: takePosition/msnakex_reg[10][4]/Q, takePosition/msnakex_reg[10][4]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[11][31]_0[5] has multiple drivers: takePosition/msnakex_reg[10][5]/Q, takePosition/msnakex_reg[10][5]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[11][31]_0[6] has multiple drivers: takePosition/msnakex_reg[10][6]/Q, takePosition/msnakex_reg[10][6]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[11][31]_0[7] has multiple drivers: takePosition/msnakex_reg[10][7]/Q, takePosition/msnakex_reg[10][7]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[11][31]_0[8] has multiple drivers: takePosition/msnakex_reg[10][8]/Q, takePosition/msnakex_reg[10][8]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[11][31]_0[9] has multiple drivers: takePosition/msnakex_reg[10][9]/Q, takePosition/msnakex_reg[10][9]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[12][31]_0[0] has multiple drivers: takePosition/msnakex_reg[11][0]/Q, takePosition/msnakex_reg[11][0]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[12][31]_0[10] has multiple drivers: takePosition/msnakex_reg[11][10]/Q, takePosition/msnakex_reg[11][10]__0/Q.
+ERROR: [DRC 23-20] Rule violation (MDRV-1) Multiple Driver Nets - Net takePosition/msnakex_reg[12][31]_0[11] has multiple drivers: takePosition/msnakex_reg[11][11]/Q, takePosition/msnakex_reg[11][11]__0/Q.
+INFO: [Common 17-14] Message 'DRC 23-20' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Project 1-461] DRC finished with 1027 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+ERROR: [Vivado_Tcl 4-78] Error(s) found during DRC. Opt_design not run.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 472.152 ; gain = 8.426
+INFO: [Common 17-83] Releasing license: Implementation
+14 Infos, 0 Warnings, 0 Critical Warnings and 101 Errors encountered.
+opt_design failed
+ERROR: [Common 17-39] 'opt_design' failed due to earlier errors.
+
+INFO: [Common 17-206] Exiting Vivado at Sat Dec 24 18:56:20 2016...
